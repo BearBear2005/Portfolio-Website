@@ -1,0 +1,33 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Contact">
+  <h1 class="contact-title center">Let's Talk More!</h1>
+  <p class="contact-text center">I'm always looking for new opportunities to learn and grow. If you have any questions or would like to collaborate, please don't hesitate to reach out.</p>
+
+  <div class="contact-container">
+    <div class="contact-item">
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <div class="contact-item">
+        <i class="fa-brands fa-github"></i>
+    </div>
+    <div class="contact-item">
+        <i class="fa-brands fa-instagram"></i>
+    </div>
+  </div>
+
+  <div class="contact-form">
+    <form action="">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Name">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your Email">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Your Message"></textarea>
+        <button type="submit">Send</button>
+    </form>
+  </div>
+</Layout>
+
